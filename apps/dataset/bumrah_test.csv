@@ -1,0 +1,435 @@
+innings_id,over,ball_length,bowler1_wkts,runs_before_ball,wickets_before_ball,prev_isBoundary,prev_isNoball,prev_isWide,prev_isWicket,required_rate,batsman1_runs_before_ball,prev_ball_length,cluster_name
+2,19,Short of length,0,1,4,0,0,0,0,7.5,12,First ball,Balanced
+2,19,Full,1,6,4,1,0,0,0,4.909090909,18,Short of length,Balanced
+2,19,Short,1,0,5,0,0,0,1,5.4,45,Full,Balanced
+2,19,Short,1,4,5,1,0,0,0,3.333333333,49,Short,Balanced
+2,19,Short,1,1,5,0,0,0,0,3.0,0,Short,Aggressive
+2,19,Good length,1,0,5,0,0,0,0,3.428571429,0,Short,Aggressive
+1,17,Short of length,1,1,3,0,0,0,0,0.0,2,First ball,Balanced
+1,17,Short of length,1,0,3,0,0,0,0,0.0,2,Short of length,Balanced
+1,17,Short,2,0,3,0,0,0,0,0.0,2,Short of length,Balanced
+1,17,Short of length,2,0,4,0,0,0,1,0.0,74,Short,Balanced
+1,17,Short of length,3,0,4,0,0,0,0,0.0,74,Short of length,Balanced
+1,17,Good length,3,0,5,0,0,0,1,0.0,0,Short of length,Balanced
+1,19,Short of length,3,4,6,0,0,0,0,0.0,2,First ball,Balanced
+1,19,Good length,3,0,6,0,0,0,0,0.0,2,Short of length,Balanced
+1,19,Short,3,0,6,0,0,0,0,0.0,2,Good length,Balanced
+1,19,Good length,3,1,6,0,0,1,0,0.0,2,Short,Balanced
+1,19,Good length,3,1,6,0,0,0,0,0.0,5,Good length,Balanced
+2,16,Good length,1,2,5,0,0,0,0,16.4,0,First ball,Balanced
+2,16,Short of length,1,0,5,0,0,0,0,16.96551724,0,Good length,Balanced
+2,16,Good length,1,1,5,0,0,0,0,17.35714286,6,Short of length,Balanced
+2,16,Short of length,1,1,5,0,0,0,0,17.77777778,0,Good length,Balanced
+2,16,Full,1,0,5,0,0,0,0,18.46153846,0,Short of length,Balanced
+2,16,Full,2,1,5,0,0,0,0,18.96,7,Full toss,Balanced
+2,20,Short,2,6,8,0,0,0,0,56.0,1,First ball,Bowler
+2,20,Full,2,1,8,0,0,0,0,66.0,15,Short,Balanced
+2,20,Short,2,0,8,0,0,0,0,82.5,15,Full,Balanced
+2,20,Full,2,4,8,1,0,0,0,102.0,19,Short,Balanced
+2,20,Full,2,2,8,0,0,0,0,147.0,21,Full,Balanced
+2,20,Full,2,0,8,0,0,0,0,294.0,21,Yorker,Balanced
+2,16,Full,1,0,4,0,0,0,0,19.0,11,First ball,Aggressive
+2,16,Good length,1,0,5,0,0,0,1,19.65517241,0,Full,Balanced
+2,16,Short of length,1,1,5,0,0,0,0,20.14285714,16,Good length,Balanced
+2,16,Full,2,0,5,0,0,0,0,20.88888889,16,Short of length,Balanced
+2,16,Full,2,0,6,0,0,0,1,21.69230769,0,Full,Bowler
+2,16,Full,2,0,6,0,0,0,0,22.56,0,Full,Bowler
+2,18,Short of length,2,4,7,0,0,0,0,27.66666667,7,First ball,Bowler
+2,18,Short,2,6,7,1,0,0,0,27.17647059,13,Short of length,Bowler
+2,18,Short,2,0,7,0,0,0,0,28.875,13,Short,Bowler
+2,18,Full,2,6,7,1,0,0,0,28.4,19,Short,Bowler
+2,18,Good length,2,2,7,0,0,0,0,29.57142857,21,Yorker,Bowler
+2,18,Full,2,6,7,1,0,0,0,29.07692308,27,Good length,Bowler
+2,18,Full,2,1,7,0,0,1,0,28.61538462,27,Full,Bowler
+2,16,Full,1,4,6,0,0,0,0,16.0,5,First ball,Balanced
+2,16,Full,2,0,6,0,0,0,0,16.55172414,5,Yorker,Balanced
+2,16,Short,2,0,7,0,0,0,1,17.14285714,0,Yorker,Balanced
+2,16,Full,2,1,7,0,0,0,0,17.55555556,4,Short,Bowler
+2,16,Short of length,3,1,7,0,0,0,0,18.0,1,Yorker,Balanced
+2,16,Full,3,0,8,0,0,0,1,18.72,0,Short of length,Bowler
+2,18,Full,3,1,8,0,0,0,0,23.0,13,First ball,Bowler
+2,18,Full,3,1,8,0,0,0,0,24.0,1,Full,Bowler
+2,18,Full,3,1,8,0,0,0,0,25.125,14,Full toss,Bowler
+2,18,Short,3,4,8,1,0,0,0,25.2,18,Full toss,Bowler
+2,18,Short,3,2,8,0,0,0,0,26.14285714,20,Short,Bowler
+2,18,Full,4,4,8,1,0,0,0,26.30769231,24,Short,Bowler
+2,16,Short of length,2,1,4,0,0,0,0,10.2,2,First ball,Balanced
+2,16,Short of length,2,2,4,0,0,0,0,10.13793103,4,Short of length,Balanced
+2,16,Full,2,1,4,0,0,0,0,10.28571429,61,Short of length,Aggressive
+2,16,Full,2,1,4,0,0,1,0,10.07142857,61,Full,Aggressive
+2,16,Short of length,2,0,4,0,0,0,0,10.44444444,61,Full,Aggressive
+2,16,Full,2,4,4,1,0,0,0,9.923076923,65,Short of length,Aggressive
+2,16,Short,2,1,4,0,0,0,0,10.08,5,Full,Balanced
+2,18,Full,3,2,4,0,0,0,0,8.625,77,Full toss,Aggressive
+2,18,Full,3,0,5,0,0,0,1,9.2,0,Yorker,Bowler
+2,18,Full,3,1,5,0,0,0,0,9.428571429,13,Full toss,Balanced
+2,18,Full,3,1,5,0,0,0,0,9.692307692,1,Full toss,Bowler
+1,16,Full,2,0,8,0,0,0,0,0.0,0,First ball,Bowler
+1,16,Good length,2,1,8,0,0,0,0,0.0,27,Full toss,Balanced
+1,16,Full,2,0,8,0,0,0,0,0.0,27,Good length,Balanced
+1,16,Full,2,0,8,0,0,0,0,0.0,27,Full,Balanced
+1,16,Full,2,0,8,0,0,0,0,0.0,27,Full toss,Balanced
+1,16,Full,2,1,8,0,0,0,0,0.0,0,Yorker,Bowler
+1,19,Full,2,1,8,0,0,0,0,0.0,37,First ball,Balanced
+1,19,Full,2,0,8,0,0,0,0,0.0,37,Full toss,Balanced
+1,19,Full,2,2,8,0,0,0,0,0.0,39,Yorker,Balanced
+1,19,Short,2,1,8,0,0,0,0,0.0,7,Full toss,Bowler
+1,19,Full,2,4,8,1,0,0,0,0.0,11,Short,Bowler
+1,19,Full,2,0,8,0,0,0,0,0.0,11,Yorker,Bowler
+1,16,Full,1,0,5,0,0,0,0,0.0,28,First ball,Bowler
+1,16,Good length,1,0,5,0,0,0,0,0.0,28,Full toss,Bowler
+1,16,Short,1,1,5,0,0,0,0,0.0,11,Good length,Balanced
+1,16,Full,1,1,5,0,0,0,0,0.0,29,Short,Bowler
+1,16,Short,1,2,5,0,0,0,0,0.0,31,Full,Bowler
+1,16,Short,1,0,5,0,0,0,0,0.0,31,Short,Bowler
+1,18,Full,1,0,5,0,0,0,0,0.0,17,First ball,Balanced
+1,18,Full,1,2,5,0,0,0,0,0.0,19,Full toss,Balanced
+1,18,Short,1,1,5,0,0,0,0,0.0,35,Full,Bowler
+1,18,Full,1,1,5,0,0,0,0,0.0,20,Short,Balanced
+1,18,Full,1,1,5,0,0,0,0,0.0,36,Yorker,Bowler
+1,18,Good length,1,0,5,0,0,0,0,0.0,36,Full toss,Bowler
+1,18,Full,0,2,4,0,0,0,0,0.0,4,Full toss,Balanced
+1,18,Full,0,2,4,0,0,0,0,0.0,6,Full,Balanced
+1,18,Full,0,1,4,0,0,0,0,0.0,55,Full,Balanced
+1,18,Good length,0,0,4,0,0,0,0,0.0,55,Full,Balanced
+1,20,Full,0,0,4,0,0,0,0,0.0,9,First ball,Balanced
+1,20,Full,0,1,4,0,0,0,0,0.0,62,Full toss,Balanced
+1,20,Good length,0,2,4,0,0,0,0,0.0,64,Full,Balanced
+1,20,Full,0,4,4,1,0,0,0,0.0,68,Good length,Balanced
+1,20,Full,0,1,4,0,0,0,0,0.0,10,Full toss,Balanced
+1,20,Full,0,2,4,0,0,0,0,0.0,12,Full toss,Balanced
+1,20,Short,3,2,8,0,0,0,0,0.0,6,First ball,Bowler
+1,20,Short,3,0,8,0,0,0,0,0.0,6,Short,Bowler
+1,20,Full,3,0,8,0,0,0,0,0.0,6,Short,Bowler
+1,20,Full,3,1,8,0,0,0,0,0.0,10,Full toss,Bowler
+1,20,Good length,3,2,8,0,0,0,0,0.0,12,Full toss,Bowler
+1,20,Short of length,3,0,8,0,0,0,0,0.0,12,Good length,Bowler
+2,17,Short,0,1,5,0,0,0,0,16.0,6,First ball,Balanced
+2,17,Full,0,0,5,0,0,0,0,16.69565217,6,Short,Balanced
+2,17,Full,0,1,5,0,0,0,0,17.18181818,1,Full,Balanced
+2,17,Full,0,2,5,0,0,0,0,17.42857143,3,Full,Balanced
+2,17,Full,0,0,5,0,0,0,0,18.3,3,Yorker,Balanced
+2,17,Good length,0,1,5,0,0,1,0,18.0,3,Yorker,Balanced
+2,17,Full,0,6,5,1,0,0,0,17.05263158,9,Good length,Balanced
+2,19,Short,0,0,5,0,0,0,0,23.0,14,First ball,Balanced
+2,19,Good length,1,6,5,1,0,0,0,21.81818182,20,Short,Balanced
+2,19,Full,1,0,6,0,0,0,1,24.0,10,Good length,Balanced
+2,19,Full,1,3,6,0,0,0,0,24.66666667,0,Yorker,Bowler
+2,19,Full,2,1,6,0,0,0,0,27.0,10,Full,Balanced
+2,19,Full,2,0,7,0,0,0,1,30.85714286,0,Full toss,Bowler
+2,17,Good length,0,1,2,0,0,0,0,5.75,86,First ball,Balanced
+2,17,Good length,0,2,2,0,0,0,0,5.47826087,88,Good length,Balanced
+2,17,Short,0,2,2,0,0,0,0,5.181818182,90,Good length,Balanced
+2,17,Short,0,1,2,0,0,0,0,5.142857143,51,Short,Aggressive
+2,17,Short,0,1,2,0,0,0,0,5.1,91,Short,Balanced
+2,17,Short,0,0,2,0,0,0,0,5.368421053,91,Short,Balanced
+1,17,Full,0,1,2,0,0,0,0,0.0,20,First ball,Aggressive
+1,17,Short,0,4,2,1,0,0,0,0.0,24,Full,Aggressive
+1,17,Short,0,0,2,0,0,0,0,0.0,24,Short,Aggressive
+1,17,Good length,0,6,2,1,0,0,0,0.0,30,Short,Aggressive
+1,17,Good length,0,1,2,0,0,0,0,0.0,54,Good length,Balanced
+1,17,Full,0,1,2,0,0,0,0,0.0,30,Good length,Aggressive
+1,19,Short,0,6,3,0,0,0,0,0.0,2,First ball,Balanced
+1,19,Full,0,1,3,0,0,0,0,0.0,43,Short,Aggressive
+1,19,Short,0,4,3,1,0,0,0,0.0,47,Full toss,Aggressive
+1,19,Short,0,1,3,0,0,0,0,0.0,3,Short,Balanced
+1,19,Short,0,4,3,1,0,0,0,0.0,7,Short,Balanced
+1,19,Short,0,1,3,0,0,0,0,0.0,48,Short,Aggressive
+2,16,Good length,3,1,5,0,0,0,0,17.6,65,First ball,Balanced
+2,16,Short,3,0,6,0,0,0,1,18.20689655,0,Good length,Balanced
+2,16,Short,4,0,6,0,0,0,0,18.85714286,0,Short,Balanced
+2,16,Short,4,0,7,0,0,0,1,19.55555556,0,Short,Bowler
+2,16,Good length,4,0,7,0,0,0,0,20.30769231,0,Short,Bowler
+2,16,Short of length,4,0,7,0,0,0,0,21.12,0,Good length,Bowler
+2,18,Good length,4,0,7,0,0,0,0,28.33333333,32,First ball,Balanced
+2,18,Short,4,1,7,0,0,0,0,33.6,1,Short of length,Bowler
+2,18,Short of length,4,1,7,0,0,0,0,35.57142857,33,Short,Balanced
+2,18,Short of length,4,0,7,0,0,0,0,38.30769231,33,Short of length,Balanced
+1,17,Short of length,0,4,4,0,0,0,0,0.0,44,First ball,Balanced
+1,17,Good length,0,4,4,1,0,0,0,0.0,48,Short of length,Balanced
+1,17,Short of length,0,0,4,0,0,0,0,0.0,48,Good length,Balanced
+1,17,Short of length,0,0,4,0,0,0,0,0.0,48,Short of length,Balanced
+1,17,Short of length,0,2,4,0,0,0,0,0.0,50,Short of length,Balanced
+1,17,Full,0,4,4,1,0,0,0,0.0,54,Short of length,Balanced
+1,19,Full,0,1,5,0,0,0,0,0.0,5,First ball,Balanced
+1,19,Full,0,1,5,0,0,0,0,0.0,56,Full toss,Balanced
+1,19,Full,0,1,5,0,0,0,0,0.0,6,Yorker,Balanced
+1,19,Good length,0,1,5,0,0,0,0,0.0,57,Full toss,Balanced
+1,19,Full,0,1,5,0,0,0,0,0.0,7,Good length,Balanced
+1,19,Full,0,2,5,0,0,0,0,0.0,9,Full toss,Balanced
+2,17,Full,1,1,5,0,0,0,0,9.5,18,First ball,Aggressive
+2,17,Full,1,1,5,0,0,0,0,9.652173913,1,Yorker,Balanced
+2,17,Short,2,0,5,0,0,0,0,10.09090909,1,Yorker,Balanced
+2,17,Good length,2,0,6,0,0,0,1,10.57142857,0,Short,Bowler
+2,17,Short of length,2,0,6,0,0,0,0,11.1,0,Good length,Bowler
+2,17,Full,2,3,6,0,0,0,0,10.73684211,19,Short of length,Aggressive
+2,19,Full,2,1,6,0,0,0,0,9.0,34,First ball,Aggressive
+2,19,Full,2,4,6,1,0,0,0,7.636363636,38,Full toss,Aggressive
+2,19,Short of length,2,2,6,0,0,0,0,7.2,40,Full,Aggressive
+2,19,Full,2,4,6,1,0,0,0,5.333333333,44,Short of length,Aggressive
+2,19,Full,2,1,6,0,0,0,0,5.25,4,Yorker,Bowler
+2,19,Full,2,0,7,0,0,0,1,6.0,45,Full toss,Aggressive
+2,17,Good length,0,0,5,0,0,0,0,7.25,1,First ball,Balanced
+2,17,Short,0,0,5,0,0,0,0,7.565217391,1,Good length,Balanced
+2,17,Good length,0,1,5,0,0,0,0,7.636363636,0,Short,Aggressive
+2,17,Good length,0,0,5,0,0,0,0,8.0,0,Good length,Aggressive
+2,17,Good length,0,1,5,0,1,0,0,7.714285714,0,Good length,Aggressive
+2,17,Full,0,4,5,1,0,0,0,6.9,4,Good length,Aggressive
+2,17,Full,0,1,5,0,0,0,0,6.947368421,2,Full,Balanced
+2,19,Good length,0,0,5,0,0,0,0,9.0,5,First ball,Balanced
+2,19,Full,0,1,5,0,0,0,0,9.272727273,6,Good length,Aggressive
+2,19,Good length,0,1,5,0,0,0,0,9.6,6,Full toss,Balanced
+2,19,Short,0,1,5,0,0,0,0,10.0,7,Good length,Aggressive
+2,19,Full,0,1,5,0,0,0,0,10.5,7,Short,Balanced
+2,19,Full,0,0,5,0,0,0,0,12.0,7,Full,Balanced
+2,17,Full,0,1,5,0,0,0,0,7.5,1,First ball,Balanced
+2,17,Good length,0,0,5,0,0,0,0,7.826086957,1,Full,Balanced
+2,17,Good length,0,1,5,0,0,0,0,7.909090909,20,Good length,Balanced
+2,17,Short of length,0,0,5,0,0,0,0,8.285714286,20,Good length,Balanced
+2,17,Full,0,1,5,0,0,0,0,8.4,2,Short of length,Balanced
+2,17,Short,0,1,5,0,0,0,0,8.526315789,21,Full,Balanced
+2,19,Full,0,0,7,0,0,0,0,10.0,24,First ball,Balanced
+2,19,Good length,0,2,7,0,0,0,0,9.818181818,26,Full toss,Balanced
+2,19,Good length,0,0,7,0,0,0,0,10.8,26,Good length,Balanced
+2,19,Full,0,2,7,0,0,0,0,10.66666667,28,Good length,Balanced
+2,19,Full,1,0,7,0,0,0,0,12.0,28,Full,Balanced
+2,19,Short of length,1,0,8,0,0,0,1,13.71428571,0,Full,Bowler
+2,17,Short,0,1,3,0,0,0,0,7.5,11,First ball,Balanced
+2,17,Full,0,4,3,1,0,0,0,6.782608696,15,Short,Balanced
+2,17,Short,0,1,3,0,0,0,0,6.818181818,5,Full toss,Aggressive
+2,17,Full,0,1,3,0,0,1,0,6.545454545,5,Short,Aggressive
+2,17,Full,0,2,3,0,0,0,0,6.285714286,7,Full toss,Aggressive
+2,17,Good length,1,0,3,0,0,0,0,6.6,7,Full,Aggressive
+2,17,Short,1,0,4,0,0,0,1,6.947368421,16,Good length,Balanced
+2,19,Full,1,1,4,0,0,0,0,7.0,19,First ball,Balanced
+2,19,Full,1,1,4,0,1,0,0,6.5,19,Yorker,Balanced
+2,19,Full,1,1,4,0,0,0,0,6.545454545,5,Full,Aggressive
+2,19,Full,1,1,4,0,0,0,0,6.6,21,Full toss,Balanced
+2,19,Short,1,2,4,0,1,0,0,5.4,6,Full,Aggressive
+2,19,Full,1,1,4,0,0,0,0,5.333333333,21,Short,Balanced
+2,19,Full,1,1,4,0,0,0,0,5.25,7,Full toss,Aggressive
+2,19,Full,1,2,4,0,0,0,0,4.285714286,9,Full toss,Aggressive
+2,17,Good length,0,1,1,0,0,0,0,5.75,30,First ball,Aggressive
+2,17,Good length,0,0,1,0,0,0,0,6.0,30,Good length,Aggressive
+2,17,Short of length,0,1,1,0,0,0,0,6.0,49,Good length,Aggressive
+2,17,Short of length,0,1,1,0,0,0,0,6.0,31,Short of length,Aggressive
+2,17,Short of length,0,0,1,0,0,0,0,6.3,31,Short of length,Aggressive
+2,17,Good length,0,4,1,1,0,0,0,5.368421053,35,Short of length,Aggressive
+1,17,Full,0,2,2,0,0,0,0,0.0,24,First ball,Balanced
+1,17,Full,0,0,2,0,0,0,0,0.0,24,Yorker,Balanced
+1,17,Short of length,0,1,2,0,0,0,0,0.0,39,Yorker,Aggressive
+1,17,Full,0,1,2,0,0,0,0,0.0,25,Short of length,Balanced
+1,17,Full,0,1,2,0,0,0,0,0.0,40,Yorker,Aggressive
+1,17,Full,0,1,2,0,0,0,0,0.0,25,Full toss,Balanced
+1,19,Full,0,6,3,0,0,0,0,0.0,1,First ball,Balanced
+1,19,Full,0,1,3,0,0,0,0,0.0,34,Full toss,Balanced
+1,19,Full,0,0,3,0,0,0,0,0.0,34,Yorker,Balanced
+1,19,Full,0,1,3,0,0,0,0,0.0,2,Yorker,Balanced
+1,19,Full,1,1,3,0,0,0,0,0.0,35,Full,Balanced
+1,19,Full,1,0,4,0,0,0,1,0.0,0,Full toss,Balanced
+1,17,Full,1,6,4,0,0,0,0,0.0,5,First ball,Balanced
+1,17,Full,1,1,4,0,0,0,0,0.0,29,Full,Aggressive
+1,17,Short,1,1,4,0,0,0,0,0.0,6,Full toss,Balanced
+1,17,Full,1,4,4,1,0,0,0,0.0,10,Short,Balanced
+1,17,Good length,1,1,4,0,0,1,0,0.0,10,Full,Balanced
+1,17,Full,1,1,4,0,0,0,0,0.0,30,Good length,Aggressive
+1,17,Good length,1,2,4,0,0,0,0,0.0,38,Full,Aggressive
+1,17,Full,1,7,4,1,1,0,0,0.0,38,Good length,Aggressive
+1,19,Full,1,6,4,0,0,0,0,0.0,13,First ball,Balanced
+1,19,Full,1,1,4,0,0,1,0,0.0,13,Full,Balanced
+1,19,Full,1,1,4,0,0,0,0,0.0,59,Full toss,Aggressive
+1,19,Full,1,1,4,0,0,0,0,0.0,14,Full toss,Balanced
+1,19,Full,1,1,4,0,0,0,0,0.0,60,Yorker,Aggressive
+1,19,Full,1,1,4,0,0,0,0,0.0,15,Full toss,Balanced
+1,19,Full,1,4,4,1,0,0,0,0.0,19,Full,Balanced
+2,16,Full,1,1,4,0,0,0,0,15.8,29,First ball,Balanced
+2,16,Full,1,0,5,0,0,0,1,16.34482759,47,Full,Balanced
+2,16,Full,1,0,5,0,0,0,0,16.92857143,47,Full,Balanced
+2,16,Full,1,1,5,0,0,0,0,17.33333333,0,Full,Balanced
+2,16,Full,1,1,5,0,0,0,0,17.76923077,48,Full,Balanced
+2,16,Full,1,1,5,0,0,1,0,17.53846154,48,Yorker,Balanced
+2,16,Good length,1,1,5,0,0,1,0,17.30769231,48,Full,Balanced
+2,16,Short,1,2,5,0,0,0,0,17.52,50,Good length,Balanced
+2,18,Full,1,1,6,0,0,0,0,19.66666667,55,First ball,Balanced
+2,18,Good length,2,1,6,0,0,0,0,20.47058824,9,Yorker,Bowler
+2,18,Short of length,2,0,7,0,0,0,1,21.75,0,Good length,Balanced
+2,18,Short,2,0,7,0,0,0,0,23.2,0,Short of length,Balanced
+2,18,Full,2,0,7,0,0,0,0,24.85714286,0,Short,Balanced
+2,18,Full,2,1,7,0,0,0,0,26.30769231,56,Full,Balanced
+1,16,Good length,1,0,6,0,0,0,0,0.0,11,First ball,Balanced
+1,16,Full,1,0,6,0,0,0,0,0.0,11,Good length,Balanced
+1,16,Full,1,2,6,0,0,0,0,0.0,13,Full,Balanced
+1,16,Good length,1,0,6,0,0,0,0,0.0,13,Full,Balanced
+1,16,Full,1,0,6,0,0,0,0,0.0,13,Good length,Balanced
+1,16,Good length,2,1,6,0,0,0,0,0.0,0,Full,Balanced
+1,18,Full,2,0,8,0,0,0,0,0.0,1,First ball,Bowler
+1,18,Short of length,2,0,8,0,0,0,0,0.0,1,Full,Bowler
+1,18,Full,2,0,8,0,0,0,0,0.0,1,Short of length,Bowler
+1,18,Good length,2,0,8,0,0,0,0,0.0,1,Yorker,Bowler
+1,18,Short,2,0,8,0,0,0,0,0.0,1,Good length,Bowler
+1,18,Full,2,1,8,0,1,0,0,0.0,1,Short,Bowler
+1,18,Good length,2,1,8,0,0,0,0,0.0,0,Yorker,Bowler
+1,17,Full,1,1,5,0,0,0,0,0.0,2,First ball,Bowler
+1,17,Short of length,1,1,5,0,0,0,0,0.0,26,Full,Balanced
+1,17,Full,1,1,5,0,0,0,0,0.0,3,Short of length,Bowler
+1,17,Good length,1,0,5,0,0,0,0,0.0,3,Full,Bowler
+1,17,Full,1,2,5,0,0,0,0,0.0,5,Good length,Bowler
+1,17,Short of length,1,2,5,0,0,0,0,0.0,7,Full,Bowler
+1,19,Good length,1,1,5,0,0,0,0,0.0,8,First ball,Bowler
+1,19,Short,1,0,5,0,0,0,0,0.0,8,Good length,Bowler
+1,19,Good length,1,0,5,0,0,0,0,0.0,8,Short,Bowler
+1,19,Full,2,1,5,0,0,0,0,0.0,28,Good length,Balanced
+1,19,Full,2,0,6,0,0,0,1,0.0,8,Full,Bowler
+1,19,Good length,2,2,6,0,0,0,0,0.0,10,Full,Bowler
+1,17,Full,0,1,5,0,0,0,0,0.0,56,First ball,Balanced
+1,17,Full,0,0,5,0,0,0,0,0.0,56,Yorker,Balanced
+1,17,Good length,0,6,5,1,0,0,0,0.0,62,Full,Balanced
+1,17,Full,1,1,5,0,0,0,0,0.0,26,Good length,Balanced
+1,17,Full,1,0,6,0,0,0,1,0.0,63,Full,Balanced
+1,17,Full,1,0,6,0,0,0,0,0.0,63,Full toss,Balanced
+1,20,Full,1,6,6,0,0,0,0,0.0,21,First ball,Balanced
+1,20,Short of length,1,1,6,0,0,1,0,0.0,21,Full,Balanced
+1,20,Good length,2,2,6,0,0,0,0,0.0,23,Short of length,Balanced
+1,20,Full,2,0,7,0,0,0,1,0.0,78,Good length,Balanced
+1,20,Full,2,4,7,1,0,0,0,0.0,82,Full,Balanced
+1,20,Full,2,1,7,0,0,0,0,0.0,0,Yorker,Bowler
+1,20,Full,2,1,7,0,0,0,0,0.0,82,Full,Balanced
+1,17,Full,1,0,3,0,0,0,0,0.0,0,First ball,Aggressive
+1,17,Full,1,0,3,0,0,0,0,0.0,0,Yorker,Aggressive
+1,17,Full,1,6,3,1,0,0,0,0.0,6,Full,Aggressive
+1,17,Full,1,1,3,0,0,0,0,0.0,34,Full,Balanced
+1,17,Full,1,1,3,0,0,0,0,0.0,7,Full,Aggressive
+1,17,Short,1,1,3,0,0,1,0,0.0,7,Full,Aggressive
+1,17,Short,1,4,3,1,0,0,0,0.0,11,Short,Aggressive
+1,19,Full,1,1,3,0,0,0,0,0.0,52,First ball,Balanced
+1,19,Full,1,4,3,1,0,0,0,0.0,56,Full,Balanced
+1,19,Full,1,1,3,0,0,1,0,0.0,56,Full,Balanced
+1,19,Full,2,0,3,0,0,0,0,0.0,56,Full,Balanced
+1,19,Short of length,3,0,4,0,0,0,1,0.0,11,Yorker,Aggressive
+1,19,Full,3,0,5,0,0,0,1,0.0,0,Short of length,Balanced
+1,19,Full,3,1,5,0,0,0,0,0.0,0,Full toss,Balanced
+2,18,Good length,1,0,6,0,0,0,0,6.0,24,First ball,Balanced
+2,18,Good length,1,0,6,0,0,0,0,6.352941176,24,Good length,Balanced
+2,18,Good length,1,1,6,0,0,0,0,6.375,8,Good length,Balanced
+2,18,Short of length,1,1,6,0,0,0,0,6.4,25,Good length,Balanced
+2,18,Full,1,1,6,0,0,0,0,6.428571429,9,Short of length,Balanced
+2,18,Good length,1,1,6,0,0,0,0,6.461538462,26,Full toss,Balanced
+2,16,Good length,0,4,6,0,0,0,0,11.0,5,First ball,Balanced
+2,16,Good length,0,6,6,1,0,0,0,10.13793103,11,Good length,Balanced
+2,16,Short of length,0,1,6,0,0,0,0,10.28571429,30,Good length,Balanced
+2,16,Full,0,4,6,1,0,0,0,9.777777778,34,Short of length,Balanced
+2,16,Full,0,1,6,0,0,0,0,9.923076923,12,Full,Balanced
+2,16,Full,0,2,6,0,0,0,0,9.84,14,Yorker,Balanced
+2,19,Full,0,6,6,0,0,0,0,1.5,47,First ball,Balanced
+2,19,Full,0,1,6,0,0,0,0,1.090909091,34,Yorker,Balanced
+1,19,Full,1,1,3,0,0,0,0,0.0,99,First ball,Aggressive
+1,19,Full,2,1,3,0,0,0,0,0.0,35,Yorker,Aggressive
+1,19,Full,2,0,4,0,0,0,1,0.0,0,Full toss,Balanced
+1,19,Full,2,1,4,0,0,0,0,0.0,100,Yorker,Aggressive
+1,19,Full,3,0,4,0,0,0,0,0.0,100,Full toss,Aggressive
+1,19,Full,3,0,5,0,0,0,1,0.0,0,Yorker,Balanced
+2,18,Good length,0,1,2,0,0,0,0,6.666666667,42,First ball,Balanced
+2,18,Good length,0,2,2,0,0,0,0,6.352941176,44,Good length,Balanced
+2,18,Good length,0,1,2,0,0,0,0,6.375,0,Good length,Balanced
+2,18,Short of length,0,1,2,0,0,0,0,6.4,45,Good length,Balanced
+2,18,Good length,0,0,2,0,0,0,0,6.857142857,45,Short of length,Balanced
+2,18,Short,0,3,2,0,0,0,0,6.0,1,Good length,Balanced
+1,19,Full,1,4,4,0,0,0,0,0.0,1,First ball,Balanced
+1,19,Full,1,1,4,0,0,0,0,0.0,23,Yorker,Aggressive
+1,19,Full,1,2,4,0,0,0,0,0.0,25,Full,Aggressive
+1,19,Full,1,1,4,0,0,0,0,0.0,2,Full toss,Balanced
+1,19,Full,1,1,4,0,0,0,0,0.0,26,Yorker,Aggressive
+1,19,Full,1,2,4,0,0,0,0,0.0,28,Yorker,Aggressive
+1,16,Full,0,6,2,0,0,0,0,0.0,8,First ball,Balanced
+1,16,Good length,0,0,2,0,0,0,0,0.0,8,Full toss,Balanced
+1,16,Good length,0,0,2,0,0,0,0,0.0,8,Good length,Balanced
+1,16,Full,0,1,2,0,0,0,0,0.0,78,Good length,Aggressive
+1,16,Good length,0,1,2,0,0,0,0,0.0,9,Yorker,Balanced
+1,16,Full,0,1,2,0,0,0,0,0.0,79,Good length,Aggressive
+1,18,Full,0,1,3,0,0,0,0,0.0,87,First ball,Aggressive
+1,18,Full,0,1,3,0,0,0,0,0.0,2,Yorker,Balanced
+1,18,Full,0,1,3,0,0,0,0,0.0,88,Full,Aggressive
+1,18,Full,0,1,3,0,0,1,0,0.0,88,Yorker,Aggressive
+1,18,Full,0,1,3,0,0,0,0,0.0,3,Yorker,Balanced
+1,18,Full,0,1,3,0,0,0,0,0.0,89,Yorker,Aggressive
+1,18,Full,0,1,3,0,0,1,0,0.0,89,Full,Aggressive
+1,18,Full,0,2,3,0,0,0,0,0.0,91,Full,Aggressive
+2,17,Short of length,0,2,6,0,0,0,0,11.75,2,First ball,Aggressive
+2,17,Good length,0,1,6,0,0,1,0,11.5,2,Short of length,Aggressive
+2,17,Full,0,1,6,0,0,0,0,11.73913043,2,Good length,Balanced
+2,17,Full,0,0,6,0,0,0,0,12.27272727,2,Yorker,Balanced
+2,17,Short of length,0,1,6,0,0,0,0,12.57142857,3,Yorker,Aggressive
+2,17,Full,0,1,6,0,0,0,0,12.9,3,Short of length,Balanced
+2,17,Full,0,1,6,0,0,0,0,13.26315789,4,Yorker,Aggressive
+2,19,Full,0,1,6,0,0,0,0,13.5,12,First ball,Balanced
+2,19,Full,0,0,6,0,0,0,0,14.72727273,12,Full toss,Balanced
+2,19,Full,0,4,6,1,0,0,0,13.8,16,Full,Balanced
+2,19,Full,0,1,6,0,0,0,0,14.66666667,11,Full toss,Aggressive
+2,19,Full,0,1,6,0,0,0,0,15.75,17,Full,Balanced
+2,19,Full,0,4,6,1,0,0,0,14.57142857,21,Full toss,Balanced
+1,17,Full,1,2,5,0,0,0,0,0.0,72,First ball,Aggressive
+1,17,Short of length,1,4,5,1,0,0,0,0.0,76,Full,Aggressive
+1,17,Short,1,1,5,0,0,0,0,0.0,3,Short of length,Balanced
+1,17,Full,1,0,5,0,0,0,0,0.0,3,Short,Balanced
+1,17,Full,1,1,5,0,0,0,0,0.0,77,Full toss,Aggressive
+1,17,Full,1,0,5,0,0,0,0,0.0,77,Yorker,Aggressive
+1,19,Full,1,4,5,0,0,0,0,0.0,6,First ball,Balanced
+1,19,Full,1,1,5,0,0,0,0,0.0,94,Yorker,Aggressive
+1,19,Full,1,1,5,0,0,0,0,0.0,7,Full toss,Balanced
+1,19,Full,1,1,5,0,0,0,0,0.0,95,Yorker,Aggressive
+1,19,Full,1,0,5,0,0,0,0,0.0,95,Yorker,Aggressive
+1,19,Full,1,1,5,0,0,0,0,0.0,8,Full toss,Balanced
+1,17,Short of length,0,0,4,0,0,0,0,0.0,1,First ball,Aggressive
+1,17,Short,0,0,4,0,0,0,0,0.0,1,Short of length,Aggressive
+1,17,Short of length,0,0,4,0,0,0,0,0.0,1,Short,Aggressive
+1,17,Short of length,0,0,4,0,0,0,0,0.0,1,Short of length,Aggressive
+1,17,Full,0,1,4,0,0,0,0,0.0,0,Short of length,Balanced
+1,17,Good length,0,2,4,0,0,0,0,0.0,2,Full toss,Balanced
+1,19,Full,0,0,5,0,0,0,0,0.0,3,First ball,Aggressive
+1,19,Full,0,1,5,0,0,0,0,0.0,11,Full,Balanced
+1,19,Full,0,4,5,1,0,0,0,0.0,15,Full,Balanced
+1,19,Full,0,1,5,0,0,0,0,0.0,4,Yorker,Aggressive
+1,19,Full,0,1,5,0,0,0,0,0.0,16,Full toss,Balanced
+1,19,Full,0,4,5,1,0,0,0,0.0,20,Yorker,Balanced
+2,17,Good length,0,0,3,0,0,0,0,9.75,14,First ball,Aggressive
+2,17,Full,0,4,3,1,0,0,0,9.130434783,18,Good length,Aggressive
+2,17,Full,0,1,3,0,0,0,0,9.272727273,0,Full,Balanced
+2,17,Good length,0,0,3,0,0,0,0,9.714285714,0,Full,Balanced
+2,17,Full,0,4,3,1,0,0,0,9.0,4,Good length,Balanced
+2,17,Full,0,1,3,0,0,0,0,9.157894737,19,Full,Aggressive
+2,19,Full,0,1,4,0,0,0,0,9.5,8,First ball,Balanced
+2,19,Good length,0,2,4,0,0,0,0,9.272727273,10,Full toss,Balanced
+2,19,Good length,0,0,4,0,0,0,0,10.2,10,Good length,Balanced
+2,19,Short of length,0,1,4,0,0,0,0,10.66666667,1,Good length,Balanced
+2,19,Good length,0,1,4,0,0,0,0,11.25,11,Short of length,Balanced
+2,19,Good length,0,6,4,1,0,0,0,7.714285714,17,Good length,Balanced
+1,18,Short,3,4,5,0,0,0,0,0.0,5,First ball,Balanced
+1,18,Short,3,0,6,0,0,0,1,0.0,0,Short,Bowler
+1,18,Short,4,0,6,0,0,0,0,0.0,0,Short,Bowler
+1,18,Short of length,5,0,7,0,0,0,1,0.0,0,Short,Balanced
+1,18,Full,5,0,8,0,0,0,1,0.0,0,Short of length,Bowler
+1,18,Short of length,5,0,8,0,0,0,0,0.0,0,Full,Bowler
+1,20,Short,5,0,9,0,0,0,0,0.0,22,First ball,Balanced
+1,20,Full,5,0,9,0,0,0,0,0.0,22,Short,Balanced
+1,20,Full,5,0,9,0,0,0,0,0.0,22,Yorker,Balanced
+1,20,Short of length,5,0,9,0,0,0,0,0.0,22,Full toss,Balanced
+1,20,Full,5,0,9,0,0,0,0,0.0,22,Short of length,Balanced
+1,20,Full,5,0,9,0,0,0,0,0.0,22,Full,Balanced
+1,20,Full,0,0,5,0,0,0,0,0.0,3,First ball,Balanced
+1,20,Full,0,0,5,0,0,0,0,0.0,3,Full toss,Balanced
+1,20,Full,0,4,5,1,0,0,0,0.0,7,Full,Balanced
+1,20,Full,0,1,5,0,0,0,0,0.0,7,Full toss,Balanced
+1,20,Full,0,0,5,0,0,0,0,0.0,7,Full toss,Balanced
+1,20,Full,1,2,5,0,0,0,0,0.0,9,Full toss,Balanced
+1,17,Short of length,2,0,5,0,0,0,0,0.0,35,First ball,Aggressive
+1,17,Short,2,0,5,0,0,0,0,0.0,35,Short of length,Aggressive
+1,17,Full,2,0,5,0,0,0,0,0.0,35,Short,Aggressive
+1,17,Good length,2,1,5,0,0,0,0,0.0,0,Yorker,Balanced
+1,17,Short of length,2,0,5,0,0,0,0,0.0,0,Good length,Balanced
+1,17,Short,2,1,5,0,0,0,0,0.0,36,Short of length,Aggressive
+1,19,Full,2,0,5,0,0,0,0,0.0,9,First ball,Balanced
+1,19,Full,3,1,5,0,0,0,0,0.0,43,Yorker,Aggressive
+1,19,Good length,3,0,6,0,0,0,1,0.0,0,Yorker,Bowler
+1,19,Full,3,1,6,0,0,0,0,0.0,10,Good length,Balanced
+1,19,Full,3,1,6,0,0,0,0,0.0,1,Yorker,Bowler
+1,19,Full,3,1,6,0,0,0,0,0.0,11,Yorker,Balanced

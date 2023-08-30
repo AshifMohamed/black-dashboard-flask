@@ -1,0 +1,164 @@
+{% extends "layouts/base.html" %}
+
+{% block title %} Tables {% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+<div class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card ">
+                <div class="card-header">
+                    <h4 class="card-title"> Simple Table</h4>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table tablesorter " id="">
+                            <thead class=" text-primary">
+                            <tr>
+                                <th>
+                                    Innings
+                                </th>
+                                <th>
+                                    Over
+                                </th>
+                                <th>
+                                    Total Wickets
+                                </th>
+                                <th>
+                                    Bowler Wickets
+                                </th>
+                                <th>
+                                    Batsman Runs
+                                </th>
+                                <th>
+                                    Batsman Type
+                                </th>
+                                <th>
+                                    Required Rate
+                                </th>
+                                <th>
+                                    Runs Previous Ball
+                                </th>
+                                <th>
+                                    Previous Ball Boundary
+                                </th>
+                                <th>
+                                    Previous Ball No ball
+                                </th>
+                                <th>
+                                    Previous Ball Wide
+                                </th>
+                                <th>
+                                    Previous Ball Wicket
+                                </th>
+                                <th>
+                                    Previous Ball Length
+                                </th>
+                                <th>
+                                    Batsman Type
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for row in data %}
+                            <tr>
+<!--                                {% for row_ in row %}-->
+<!--                                <td>{{row_}}</td>-->
+<!--                                {% endfor %}-->
+                                <td>{{ row[0] }}</td>
+                                <td>{{ row[1] }}</td>
+                                <td>{{ row[5] }}</td>
+                                <td>{{ row[3] }}</td>
+                                <td>{{ row[11] }}</td>
+                                <td>{{ row[13] }}</td>
+                                <td>{{ row[10] }}</td>
+                                <td>{{ row[4] }}</td>
+                                <td>{{ row[6] }}</td>
+                                <td>{{ row[7] }}</td>
+                                <td>{{ row[8] }}</td>
+                                <td>{{ row[9] }}</td>
+                                <td>{{ row[12] }}</td>
+
+<!--                                <td>{{ row.innings_id }}</td>-->
+<!--                                <td>{{ row.over }}</td>-->
+<!--                                <td>{{ row.wickets_before_ball }}</td>-->
+<!--                                <td>{{ row.bowler1_wkts }}</td>-->
+<!--                                <td>{{ row.batsman1_runs_before_ball }}</td>-->
+<!--                                <td>{{ row.cluster_name }}</td>-->
+<!--                                <td>{{ row.required_rate }}</td>-->
+<!--                                <td>{{ row.runs_before_ball }}</td>-->
+<!--                                <td>{{ row.batsman1_runs_before_ball }}</td>-->
+<!--                                <td>{{ row.prev_isBoundary }}</td>-->
+<!--                                <td>{{ row.prev_isNoball }}</td>-->
+<!--                                <td>{{ row.prev_isWide }}</td>-->
+<!--                                <td>{{ row.prev_isWicket }}</td>-->
+<!--                                <td>{{ row.prev_ball_length }}</td>-->
+                                <td>
+                                    <form action="/predict" method="post">
+                                        <input type="hidden" name="data_id" value="{{ row[14] }}">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal"
+                                                data-target="#predictionModal">
+                                            Predict
+                                        </button>
+                                    </form>
+                                </td>
+                                <!--                    <td><input type="checkbox" name="selected_ids" value="{{ row.id }}"></td>-->
+                            </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="predictionModal" tabindex="-1" role="dialog"
+                             aria-labelledby="predictionModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="predictionModalLabel">Prediction Result</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                            <i class="tim-icons icon-simple-remove"></i>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Actual: <span id="actualResult"></span></p>
+                                        <p>Prediction: <span id="predictionResult"></span></p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+<script>
+    $(document).ready(function() {
+        $('#predictionModal').on('show.bs.modal', function(event) {
+            var button = $(event.relatedTarget);
+            var dataId = button.siblings('input[name="data_id"]').val();
+
+            $.post('/predict', { data_id: dataId }, function(data) {
+                var predictionResult = data.prediction;
+                console.log("Result :",predictionResult)
+                $('#actualResult').text(predictionResult[0].actual);
+                $('#predictionResult').text(predictionResult[0].prediction);
+            });
+        });
+    });
+</script>
+{% endblock javascripts %}
