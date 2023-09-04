@@ -1,5 +1,6 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, StandardScaler
+import copy
 from apps.home.transitions import calculate_probable_length
 from apps.data_loader import selected_features, loaded_model, data, model_processor
 
@@ -54,8 +55,9 @@ def make_predictions(selected_ids):
 
 
 def preprocess_data(row):
-    label_encoder = label_encoder_org.copy()
-    scaler = scaler_org.copy()
+    print(selected_features)
+    label_encoder = copy.copy(label_encoder_org)
+    scaler = copy.copy(scaler_org)
 
     row['required_rate_bin'] = pd.cut(row['required_rate'], bins=bin_edges, labels=bin_labels)
     row['runs_before_ball'] = row['runs_before_ball'].apply(map_over_range)
@@ -89,17 +91,14 @@ def preprocess_data(row):
     row = row.reset_index(drop=True)
     row_encoded = row_encoded.reset_index(drop=True)
     row_scaled_df = row_scaled_df.reset_index(drop=True)
-    print("fsdaf")
 
     # Concatenate the DataFrames along the columns (axis=1)
     row_processed = pd.concat([row, row_encoded, row_scaled_df], axis=1)
 
-    print("row row_processed shape :", row_processed.shape)
-    #row_processed = pd.concat([row, row_encoded, pd.DataFrame(row_scaled, columns=all_numerical_features_scaled)], axis=1)
-
     # Add missing columns to the encoded user input DataFrame with values set to 0
     missing_columns = set(all_categorical_features_encoded) - set(row_processed.columns)
     for column in missing_columns:
+        print("missing")
         row_processed[column] = 0
 
     row_processed = row_processed[selected_features]

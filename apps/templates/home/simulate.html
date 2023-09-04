@@ -12,7 +12,7 @@
         <div class="col-md-12">
             <div class="card ">
                 <div class="card-header">
-                    <h4 class="card-title"> Simple Table</h4>
+                    <h4 class="card-title"> Prediction Data</h4>
                 </div>
                 <div class="card-body">
                     <div class="table-responsive">
@@ -124,7 +124,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <p>Actual: <span id="actualResult"></span></p>
+<!--                                        <p>Actual: <span id="actualResult"></span></p>-->
                                         <p>Prediction: <span id="predictionResult"></span></p>
                                     </div>
                                     <div class="modal-footer">
@@ -155,7 +155,7 @@
             $.post('/predict', { data_id: dataId }, function(data) {
                 var predictionResult = data.prediction;
                 console.log("Result :",predictionResult)
-                $('#actualResult').text(predictionResult[0].actual);
+<!--                $('#actualResult').text(predictionResult[0].actual);-->
                 $('#predictionResult').text(predictionResult[0].prediction);
             });
         });
